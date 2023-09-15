@@ -10,8 +10,8 @@ jobs:
     name: "Terraform"
     runs-on: ubuntu-latest
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AKIA6LBQCUK2LF4CQTQF }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.UkHuU61Qak5QmlGy38tT9OFFWvwmkIByKyuFbSqN }}
     defaults:
       run:
         working-directory: src
